@@ -1,0 +1,40 @@
+<svg width="900" height="720" viewBox="0 0 900 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="130" y1="46" x2="748" y2="670" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#182D67"/>
+      <stop offset="0.52" stop-color="#173D76"/>
+      <stop offset="1" stop-color="#071A31"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(525 262) rotate(90) scale(174)">
+      <stop stop-color="#D9F7FF" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="water" x1="450" y1="390" x2="450" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#174A75"/>
+      <stop offset="1" stop-color="#071A31"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="450" y1="280" x2="450" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#324E83"/>
+      <stop offset="1" stop-color="#10294C"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect width="900" height="720" rx="32" fill="url(#sky)"/>
+  <circle cx="525" cy="262" r="176" fill="url(#sun)"/>
+  <circle cx="525" cy="262" r="62" fill="#D9F7FF" fill-opacity="0.9"/>
+  <path d="M0 433C115 379 196 386 295 431C412 483 511 459 605 404C725 334 807 352 900 401V720H0V433Z" fill="url(#hill)"/>
+  <path d="M0 504C133 445 219 477 336 523C463 572 574 497 668 468C753 442 825 460 900 507V720H0V504Z" fill="url(#water)"/>
+  <g opacity="0.3" stroke="#8FE7F6" stroke-width="2" stroke-linecap="round">
+    <path d="M360 547H666"/><path d="M414 574H732"/><path d="M292 612H640"/><path d="M488 646H820"/>
+  </g>
+  <g opacity="0.52" filter="url(#blur)"><ellipse cx="500" cy="440" rx="180" ry="18" fill="#38BDF8"/></g>
+  <g fill="#06172D">
+    <path d="M129 720C134 626 151 561 183 509C205 473 222 451 239 431C220 495 216 571 220 720H129Z"/>
+    <path d="M185 535C157 518 143 493 140 468C169 475 193 491 206 519L185 535Z"/>
+    <path d="M203 493C213 462 232 439 258 426C258 454 244 482 218 506L203 493Z"/>
+    <path d="M159 587C130 574 109 551 101 522C132 529 159 546 176 572L159 587Z"/>
+    <path d="M217 566C237 537 264 522 294 519C278 548 253 570 222 580L217 566Z"/>
+  </g>
+  <circle cx="710" cy="116" r="3" fill="#22D3EE"/><circle cx="744" cy="154" r="2" fill="#A5B4FC"/><circle cx="171" cy="148" r="2" fill="#38BDF8"/>
+</svg>
